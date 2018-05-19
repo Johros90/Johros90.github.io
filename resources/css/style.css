@@ -1,3 +1,6 @@
+/* färgschema */
+/*color: #ffc125; /*gul*/
+/*color: SeaGreen /*Grön*/
 h1 {
   color: SeaGreen;
   font-family: 'PT Serif',serif;
@@ -5,15 +8,14 @@ h1 {
 }
 h2 {
   font-family: 'Roboto';
-  margin-top: -20px;
 }
 p, li {
   font-size: 18px;
-  color: #ffc125;
 }
 .jumbotron {
   background-image: url("../images/asaf-r-300803-unsplash.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+  color: white;
 }
