@@ -1,61 +1,83 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Jag, Johannes</title>
-    <meta charset="utf-8">
-    <!--Bootstrap meta tag-->
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
-    <!-- My styling-->
-    <link href="./resources/css/style.css" type="text/css" rel="stylesheet">
-    <!--Google fonts-->
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans|PT+Serif:400,700|Roboto" rel="stylesheet">
-  </head>
-  <body>
-    <header id="header" class="flex-container">
-      <nav>
-        <a href="#header">Johannes</a>
-        <a href="#aboutme">Om mig</a>
-        <a href="#project">Projekt</a>
-        <a href="#achivements">Prestationer</a>
-        <a href="#contact">Kontakt</a>
-      </nav>
-    </header>
-    <!--Stikcy header script -->
-    <script src="./resources/js/js.js"></script>
-    <div class="main">
-      <div class="landing-page flex-container">
-      <h1>Jag, Johannes Rosin</h1>
-      <h2>investerar i framtiden</h2>
-      <p>Något som genomsyrar mitt beteende är en enkel modell jag har av verkligheten, för att växa behövs mostånd & vila.
-          Överbelastning & återhämtning. </p>
+<head>
+  <title>Jag, Johannes</title>
+  <meta charset="utf-8">
+  <!--Bootstrap meta tag-->
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+  <!--Icons -->
+  <link href="./resources/open-iconic-master/font/css/open-iconic-bootstrap.css" rel="stylesheet">
+  <!-- My styling-->
+  <link href="./resources/css/style.css" type="text/css" rel="stylesheet">
+  <!--Google fonts-->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans|PT+Serif:400,700|Roboto" rel="stylesheet">
+</head>
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+<!--Navigation-->
+<nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="#">Johannes</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myNavbar" aria-controls="myNavbar" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="oi oi-menu"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <div class="navbar-nav">
+        <a class="nav-item nav-link active" href="#hem">Hem</a>
+        <a class="nav-item nav-link" href="#">Om mig</a>
+        <a class="nav-item nav-link" href="#">Projekt</a>
+        <a class="nav-item nav-link" href="#">Prestationer</a>
+        <a class="nav-item nav-link" href="#">Kontakt</a>
       </div>
     </div>
-
-  <!--    <div id="aboutme">
-      <h1>Intressen</h1>
-      <ul>
-        <li>Vandra</li>
-        <li>Träna</li>
-        <li>Resa</li>
-        <li>Lära mig</li>
-      </ul>
-      <h1>Målsättning</h1>
-      <ul>
-        <li>Springa fort</li>
-        <li>Gymma tungt</li>
-        <li>Lära mig allt</li>
-      </ul>
-      <h1>Principer</h1>
-      <ul>
-        <li></li>
-      </ul>
+</nav>
+<!-- Landing page with cta -->
+<div id="hem" class="jumbotron jumbotron-fluid text-center">
+    <div class="container">
+    <h1>Jag, Johannes Rosin</h1>
+    <h2>investerar i framtiden</h2>
+    <p>Något som genomsyrar mitt beteende är en enkel modell jag har av verkligheten, för att växa behövs mostånd & vila.
+        Överbelastning & återhämtning. </p>
+    <span class="oi oi-chevron-bottom" title="chevron bottom" aria-hidden="true"></span>
+  </div>
+</div>
+<!-- Selling point -->
+<div class="container-fluid text-center">
+  <div class="row">
+    <div class="col-sm-4">
+      <h3>Column 1</h3>
+      <p>Lorem ipsum dolor..</p>
+      <p>Ut enim ad..</p>
     </div>
--->
-   <!-- Bootstrap, jQuery first, then Popper.js, then Bootstrap JS -->
-   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
-  </body>
+    <div class="col-sm-4">
+      <h3>Column 2</h3>
+      <p>Lorem ipsum dolor..</p>
+      <p>Ut enim ad..</p>
+    </div>
+    <div class="col-sm-4">
+      <h3>Column 3</h3>
+      <p>Lorem ipsum dolor..</p>
+      <p>Ut enim ad..</p>
+    </div>
+  </div>
+</div>
+<!--about me
+<div class="container">
+  <div class="row">
+  <div class="media">
+    <div class="media-body">
+      <h5 class="mt-0 mb-1">Om mig</h5>
+      Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+    </div>
+      <img src=".../400x300" class="figure-img img-fluid rounded" alt="A generic square placeholder image with rounded corners in a figure.">
+  <figcaption class="figure-caption">A caption for the above image.</figcaption>
+</figure>
+  </div>
+</div>-->
+<!-- Bootstrap, jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+</body>
 </html>
