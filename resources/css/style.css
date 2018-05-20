@@ -6,7 +6,7 @@ h1 {
   font-family: 'PT Serif',serif;
   font-weight: 700;
 }
-h2 {
+h2, p {
   font-family: 'Roboto';
 }
 p, li {
@@ -18,4 +18,16 @@ p, li {
   background-size: cover;
   background-repeat: no-repeat;
   color: white;
+}
+.big-icon {
+  font-size: 64px;
+  color:#ffc125;
+}
+main>div:nth-child(odd) {
+  background-color:#ffc125;
+}
+.anchor {
+  display: block;
+  height: 70px;
+  margin-top:-70px;
 }
