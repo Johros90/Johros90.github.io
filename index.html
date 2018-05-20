@@ -51,13 +51,15 @@
     <!--CTA-->
     <div class="row">
       <div class="col">
-        <button href="#" type="button" class="btn btn-light">Ta kontakt</button>
-        <button href="#" type="button" class="btn btn-light">CV</button>
+        <button href="#" type="button" class="btn btn-light" style="width:120px;">
+          <span class="oi oi-envelope-closed" style="font-size:14px;"></span> Ta kontakt</button>
+        <button href="#" type="button" class="btn btn-light" style="width:120px;">
+          <span class="oi oi-data-transfer-download" style="font-size:14px;"></span> CV</button>
       </div>
     </div>
     <div class="row">
       <div class="col align-self-end mt-5">
-        <a class="oi oi-chevron-bottom shadow-sm text-light" title="3 saker" href="#tre" style="text-decoration:none;"></a>
+        <a class="oi oi-chevron-bottom shadow-sm text-light" href="#tre" data-toggle="tooltip" title="Lär dig mer om mig" style="text-decoration:none;"></a>
       </div>
     </div>
   </div>
@@ -128,7 +130,7 @@
   </div>
 </div>
 <!-- prestationer -->
-<div id="prestationer" class="container-fluid">
+<div id="prestationer" class="container-fluid text-light" >
   <div class="row">
     <div class="col-md-6 offset-md-3">
       <div class="media p-3">
@@ -148,5 +150,9 @@
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+<script type="text/javascript">
+$(function () {
+  $('[data-toggle="tooltip"]').tooltip()
+})</script>
 </body>
 </html>
